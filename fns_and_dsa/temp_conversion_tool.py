@@ -21,4 +21,4 @@ if __name__ == "__main__":
         converted = convert_to_celsius(temp)
         print(f"{temp}°F is {converted:.2f}°C")
     else:
-        print("Invalid unit. Please enter 'C' for Celsius or 'F' for Fahrenheit.")
+        print("Invalid temperature. Please enter a numeric value.")
