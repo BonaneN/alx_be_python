@@ -14,4 +14,4 @@ if time_bound == "yes":
     time_message = "that requires immediate attention today!"
 else:
     time_message = "Consider completing it when you have free time."
-print(f"Note: {task} {priority_message}. {time_message}")
+print(f"Reminder: {task} {priority_message}. {time_message}")
