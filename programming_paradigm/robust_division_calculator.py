@@ -4,7 +4,7 @@ def safe_divide(numerator, denominator):
         denom = float(denominator)
         result = num / denom
     except ValueError:
-        return "Error: Both numerator and denominator must be numbers."
+        return "Error: Please enter numeric values only."
     except ZeroDivisionError:
         return "Error: Cannot divide by zero."
     else:
